@@ -46,7 +46,7 @@ const countryList = {
   EEK: "EE",
   EGP: "EG",
   ETB: "ET",
-  EUR: "FR",
+  EUR: "EU",
   FJD: "FJ",
   FKP: "FK",
   GBP: "GB",
