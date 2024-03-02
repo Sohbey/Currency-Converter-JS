@@ -14,9 +14,9 @@ for (let select of dropdowns) {
     newOption.innerText = currCode;
     newOption.value = currCode;
     if (select.name === "from" && currCode === "USD") {
-      newOption.selected = "USD";
+      newOption.selected = "selected";
     } else if (select.name === "to" && currCode === "GBP") {
-      newOption.selected = "GBP";
+      newOption.selected = "selected";
     }
     select.append(newOption);
   }
