@@ -1,3 +1,4 @@
+//here we used base URL of API who help us to get the latest exchange rate //
 const BASE_URL =
   "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies";
 
@@ -13,9 +14,9 @@ for (let select of dropdowns) {
     newOption.innerText = currCode;
     newOption.value = currCode;
     if (select.name === "from" && currCode === "USD") {
-      newOption.selected = "selected";
-    } else if (select.name === "to" && currCode === "INR") {
-      newOption.selected = "selected";
+      newOption.selected = "USD";
+    } else if (select.name === "to" && currCode === "GBP") {
+      newOption.selected = "GBP";
     }
     select.append(newOption);
   }
